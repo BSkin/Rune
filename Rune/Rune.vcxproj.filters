@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Asset Manger">
+      <UniqueIdentifier>{96dede7b-80d6-431d-8f75-230df634ee26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects">
+      <UniqueIdentifier>{2e30a120-eed9-438e-b1f9-5410770ac5a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Events">
+      <UniqueIdentifier>{07caacdb-cc57-4c25-bb08-1c5ec3c28f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects">
+      <UniqueIdentifier>{1eddf2bc-5e05-40fe-8d7c-2c11da4e02f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects\Characters">
+      <UniqueIdentifier>{a38be231-0a65-46db-87b9-ca955c000f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects\Collision Objects">
+      <UniqueIdentifier>{f3188114-b95d-4ac3-808b-191b022fe132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects\Physics Functions">
+      <UniqueIdentifier>{8525ab56-23ce-485a-982f-d632e57a9e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Spells">
+      <UniqueIdentifier>{f615e9a9-d2a9-42ef-9d9f-6c23852d175a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input Manager">
+      <UniqueIdentifier>{09e3904f-7672-49bc-a1b6-cce740e89de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking">
+      <UniqueIdentifier>{a7d0b569-dccd-4806-8227-d0b05796da66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Asset Manager">
+      <UniqueIdentifier>{c1a6c348-7a61-4ee2-9d5e-43a10e84a9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects">
+      <UniqueIdentifier>{d68cad4d-4c2e-4109-9d9d-b756795ab811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Events">
+      <UniqueIdentifier>{f3835dc3-535c-403b-a272-3a5e4b8895b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Physics Objects">
+      <UniqueIdentifier>{6d8d05b1-5be8-4b38-84c2-cb101d727a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Physics Objects\Characters">
+      <UniqueIdentifier>{afb8afbe-a22d-4535-b530-b497d948b85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Physics Objects\Collision Objects">
+      <UniqueIdentifier>{47e14200-533f-4941-9d30-549528b7a1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Spells">
+      <UniqueIdentifier>{4956b4b0-1382-48be-86fc-0d4280a89158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input Manager">
+      <UniqueIdentifier>{8f5e60bf-1a2e-42f2-9098-7fea2f8d993e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking">
+      <UniqueIdentifier>{f51f1037-7cd4-451d-a954-2e25d01f5f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Physics Objects\Boats">
+      <UniqueIdentifier>{0daf67eb-dc72-446e-b158-30038c92cf89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects\Boats">
+      <UniqueIdentifier>{82536727-f19e-4a06-bf41-f2a728199fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{f248f85e-ecea-4c28-b463-c07fcce2aa89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{a89979e5-df48-4b5e-b473-5534c87634dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects\RigidObjects">
+      <UniqueIdentifier>{06e72c42-528f-4df7-b5fa-93e4f9159db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Physics Objects\Rigid Objects">
+      <UniqueIdentifier>{f7a5c42f-d67a-4ff1-95d0-55163f1a341f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Effects">
+      <UniqueIdentifier>{97bc7d47-c7f4-498e-b0d2-ebcff2c77190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Effects">
+      <UniqueIdentifier>{36b8b938-bf6d-4603-b6ec-a953ed7608fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects\Pickups">
+      <UniqueIdentifier>{b4d2635a-f46a-47b1-8f97-e656e158f342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Physics Objects\Pickups">
+      <UniqueIdentifier>{f7c61e28-b979-41f6-a338-74580cf60e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Objects\Physics Objects\Pickups\Health Kits">
+      <UniqueIdentifier>{9a222200-07f5-4a85-8c8a-9edda8e31edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Objects\Physics Objects\Pickups\Health Kits">
+      <UniqueIdentifier>{724076d3-d925-43f8-a165-801ac0d7400e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types">
+      <UniqueIdentifier>{89696e6c-bd81-43d0-b328-105941532dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Datatypes">
+      <UniqueIdentifier>{a9c88bd8-b11f-4bd2-bc55-59de318bd361}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetLoader.h">
+      <Filter>Header Files\Asset Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files\Asset Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Asset Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Asset Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Asset Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Header Files\Engine Objects\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLogger.h">
+      <Filter>Header Files\Engine Objects\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSerializer.h">
+      <Filter>Header Files\Engine Objects\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Collision Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AirborneContactCallback.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Physics Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionContactCallback.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Physics Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RagdollObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>Header Files\Engine Objects\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Input Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyDeclarations.h">
+      <Filter>Header Files\Input Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientThread.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Engine Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Header Files\Engine Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Boat.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Boats</Filter>
+    </ClInclude>
+    <ClInclude Include="BuoyancyPoint.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Boats</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocean.h">
+      <Filter>Header Files\Engine Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>Header Files\Engine Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussianDistributionHandler.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\RigidObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightFieldObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\RigidObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PropObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\RigidObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="FireballProjectile.h">
+      <Filter>Header Files\Engine Objects\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>Header Files\Engine Objects\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkFunctions.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPManager.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDeclarations.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterRayTest.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Physics Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Railgun.h">
+      <Filter>Header Files\Engine Objects\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Header Files\Engine Objects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObjectEffect.h">
+      <Filter>Header Files\Engine Objects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamEffect.h">
+      <Filter>Header Files\Engine Objects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="FadingBeamEffect.h">
+      <Filter>Header Files\Engine Objects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Shotgun.h">
+      <Filter>Header Files\Engine Objects\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="PickupObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="FullHealthKit.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Pickups\Health Kits</Filter>
+    </ClInclude>
+    <ClInclude Include="HalfHealthKit.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Pickups\Health Kits</Filter>
+    </ClInclude>
+    <ClInclude Include="FlatHealthPickupObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Pickups\Health Kits</Filter>
+    </ClInclude>
+    <ClInclude Include="PercentHealthPickupObject.h">
+      <Filter>Header Files\Engine Objects\Physics Objects\Pickups\Health Kits</Filter>
+    </ClInclude>
+    <ClInclude Include="GrenadeLauncher.h">
+      <Filter>Header Files\Engine Objects\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Grenade.h">
+      <Filter>Header Files\Engine Objects\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBuffer.h">
+      <Filter>Header Files\Datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedHashMap.h">
+      <Filter>Header Files\Datatypes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetLoader.cpp">
+      <Filter>Source Files\Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files\Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Asset Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Engine Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject.cpp">
+      <Filter>Source Files\Engine Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>Source Files\Engine Objects\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLogger.cpp">
+      <Filter>Source Files\Engine Objects\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSerializer.cpp">
+      <Filter>Source Files\Engine Objects\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RagdollObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Collision Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>Source Files\Engine Objects\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Input Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientThread.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Boat.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Boats</Filter>
+    </ClCompile>
+    <ClCompile Include="BuoyancyPoint.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Boats</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocean.cpp">
+      <Filter>Source Files\Engine Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>Source Files\Engine Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GaussianDistributionHandler.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Rigid Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PropObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Rigid Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightFieldObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Rigid Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FireballProjectile.cpp">
+      <Filter>Source Files\Engine Objects\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.cpp">
+      <Filter>Source Files\Engine Objects\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkFunctions.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPManager.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Railgun.cpp">
+      <Filter>Source Files\Engine Objects\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Source Files\Engine Objects\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObjectEffect.cpp">
+      <Filter>Source Files\Engine Objects\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamEffect.cpp">
+      <Filter>Source Files\Engine Objects\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="FadingBeamEffect.cpp">
+      <Filter>Source Files\Engine Objects\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Shotgun.cpp">
+      <Filter>Source Files\Engine Objects\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="PickupObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="FlatHealthPickupObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Pickups\Health Kits</Filter>
+    </ClCompile>
+    <ClCompile Include="PercentHealthPickupObject.cpp">
+      <Filter>Source Files\Engine Objects\Physics Objects\Pickups\Health Kits</Filter>
+    </ClCompile>
+    <ClCompile Include="Grenade.cpp">
+      <Filter>Source Files\Engine Objects\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="GrenadeLauncher.cpp">
+      <Filter>Source Files\Engine Objects\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBuffer.cpp">
+      <Filter>Source Files\Data Types</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2BC14FE9-0051-48A5-82E4-C03CE0D8FF44}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Server</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files (x86)\Visual Leak Detector\include;..\Rune\Bullet\src;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\Rune\Bullet\src;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;glu32.lib;opengl32.lib;SDL2-2.0.3\lib\x86\SDL2.lib;Ws2_32.lib;Bullet\lib\BulletDynamics_debug.lib;Bullet\lib\BulletCollision_debug.lib;Bullet\lib\LinearMath_debug.lib;Bullet\lib\BulletSoftBody_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Visual Leak Detector\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;glu32.lib;opengl32.lib;SDL2-2.0.3\lib\x86\SDL2.lib;Ws2_32.lib;Bullet\lib\OpenGLSupport.lib;Bullet\lib\BulletDynamics.lib;Bullet\lib\BulletCollision.lib;Bullet\lib\LinearMath.lib;Bullet\lib\BulletSoftBody.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Rune\AssetLoader.cpp" />
+    <ClCompile Include="..\Rune\AssetManager.cpp" />
+    <ClCompile Include="..\Rune\BeamEffect.cpp" />
+    <ClCompile Include="..\Rune\Camera.cpp" />
+    <ClCompile Include="..\Rune\CharacterObject.cpp" />
+    <ClCompile Include="..\Rune\Client.cpp" />
+    <ClCompile Include="..\Rune\ClientThread.cpp" />
+    <ClCompile Include="..\Rune\CollisionObject.cpp" />
+    <ClCompile Include="..\Rune\DataBuffer.cpp" />
+    <ClCompile Include="..\Rune\Effect.cpp" />
+    <ClCompile Include="..\Rune\FadingBeamEffect.cpp" />
+    <ClCompile Include="..\Rune\Fireball.cpp" />
+    <ClCompile Include="..\Rune\FireballProjectile.cpp" />
+    <ClCompile Include="..\Rune\FlatHealthPickupObject.cpp" />
+    <ClCompile Include="..\Rune\FrameBuffer.cpp" />
+    <ClCompile Include="..\Rune\GameObject.cpp" />
+    <ClCompile Include="..\Rune\GaussianDistributionHandler.cpp" />
+    <ClCompile Include="..\Rune\Grenade.cpp" />
+    <ClCompile Include="..\Rune\GrenadeLauncher.cpp" />
+    <ClCompile Include="..\Rune\HeightFieldObject.cpp" />
+    <ClCompile Include="..\Rune\InputManager.cpp" />
+    <ClCompile Include="..\Rune\MeshObject.cpp" />
+    <ClCompile Include="..\Rune\Model.cpp" />
+    <ClCompile Include="..\Rune\NetworkFunctions.cpp" />
+    <ClCompile Include="..\Rune\Packet.cpp" />
+    <ClCompile Include="..\Rune\PercentHealthPickupObject.cpp" />
+    <ClCompile Include="..\Rune\PhysicsObject.cpp" />
+    <ClCompile Include="..\Rune\PickupObject.cpp" />
+    <ClCompile Include="..\Rune\PlayerObject.cpp" />
+    <ClCompile Include="..\Rune\PropObject.cpp" />
+    <ClCompile Include="..\Rune\Railgun.cpp" />
+    <ClCompile Include="..\Rune\RenderObject.cpp" />
+    <ClCompile Include="..\Rune\RenderObjectEffect.cpp" />
+    <ClCompile Include="..\Rune\RigidObject.cpp" />
+    <ClCompile Include="..\Rune\Settings.cpp" />
+    <ClCompile Include="..\Rune\Shader.cpp" />
+    <ClCompile Include="..\Rune\Shotgun.cpp" />
+    <ClCompile Include="..\Rune\Spell.cpp" />
+    <ClCompile Include="..\Rune\Texture.cpp" />
+    <ClCompile Include="..\Rune\UDPManager.cpp" />
+    <ClCompile Include="HostListener.cpp" />
+    <ClCompile Include="HostThread.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Server.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Rune\AirborneContactCallback.h" />
+    <ClInclude Include="..\Rune\AirborneRayTest.h" />
+    <ClInclude Include="..\Rune\AssetLoader.h" />
+    <ClInclude Include="..\Rune\AssetManager.h" />
+    <ClInclude Include="..\Rune\BeamEffect.h" />
+    <ClInclude Include="..\Rune\Camera.h" />
+    <ClInclude Include="..\Rune\CharacterObject.h" />
+    <ClInclude Include="..\Rune\CharacterRayTest.h" />
+    <ClInclude Include="..\Rune\Client.h" />
+    <ClInclude Include="..\Rune\ClientThread.h" />
+    <ClInclude Include="..\Rune\CollisionObject.h" />
+    <ClInclude Include="..\Rune\DataBuffer.h" />
+    <ClInclude Include="..\Rune\Effect.h" />
+    <ClInclude Include="..\Rune\EventDeclarations.h" />
+    <ClInclude Include="..\Rune\ExplosionContactCallback.h" />
+    <ClInclude Include="..\Rune\FadingBeamEffect.h" />
+    <ClInclude Include="..\Rune\Fireball.h" />
+    <ClInclude Include="..\Rune\FireballProjectile.h" />
+    <ClInclude Include="..\Rune\FlatHealthPickupObject.h" />
+    <ClInclude Include="..\Rune\FrameBuffer.h" />
+    <ClInclude Include="..\Rune\FullHealthKit.h" />
+    <ClInclude Include="..\Rune\GameObject.h" />
+    <ClInclude Include="..\Rune\GaussianDistributionHandler.h" />
+    <ClInclude Include="..\Rune\Grenade.h" />
+    <ClInclude Include="..\Rune\GrenadeLauncher.h" />
+    <ClInclude Include="..\Rune\HalfHealthKit.h" />
+    <ClInclude Include="..\Rune\HeightFieldObject.h" />
+    <ClInclude Include="..\Rune\InputManager.h" />
+    <ClInclude Include="..\Rune\KeyDeclarations.h" />
+    <ClInclude Include="..\Rune\LinkedHashMap.h" />
+    <ClInclude Include="..\Rune\MeshObject.h" />
+    <ClInclude Include="..\Rune\Model.h" />
+    <ClInclude Include="..\Rune\NetworkFunctions.h" />
+    <ClInclude Include="..\Rune\Packet.h" />
+    <ClInclude Include="..\Rune\PercentHealthPickupObject.h" />
+    <ClInclude Include="..\Rune\PhysicsObject.h" />
+    <ClInclude Include="..\Rune\PickupObject.h" />
+    <ClInclude Include="..\Rune\PlayerObject.h" />
+    <ClInclude Include="..\Rune\PropObject.h" />
+    <ClInclude Include="..\Rune\Railgun.h" />
+    <ClInclude Include="..\Rune\RenderObject.h" />
+    <ClInclude Include="..\Rune\RenderObjectEffect.h" />
+    <ClInclude Include="..\Rune\RigidObject.h" />
+    <ClInclude Include="..\Rune\Settings.h" />
+    <ClInclude Include="..\Rune\Shader.h" />
+    <ClInclude Include="..\Rune\Shotgun.h" />
+    <ClInclude Include="..\Rune\Spell.h" />
+    <ClInclude Include="..\Rune\Texture.h" />
+    <ClInclude Include="..\Rune\UDPManager.h" />
+    <ClInclude Include="..\Rune\Utilities.h" />
+    <ClInclude Include="HostListener.h" />
+    <ClInclude Include="HostThread.h" />
+    <ClInclude Include="Server.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
