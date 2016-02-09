@@ -1,5 +1,5 @@
 # Rune
-Quake like shooter prototype.
+Quake like shooter prototype. Created using C++, OpenGL, Bullet Physics and SDL
 
 Compiled With VS2015, but with VS2012 .lib files
 DEBUG set to 1 requires VLD
